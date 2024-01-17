@@ -1,9 +1,8 @@
-# Maintenance Tasks
-
+# Cloud Maintenance Tasks
 
 ## Requirements
 
-In order for the autoamted dashboards to be displayed the following items need to be present in your environment:
+In order for the automated dashboards to be displayed, the following items need to be present in your environment:
 1. Steampipe needs to be installed:
     - Installation instructions can be found [here](https://steampipe.io/downloads).
 
@@ -15,7 +14,7 @@ In order for the autoamted dashboards to be displayed the following items need t
     - Export your AWS Profile containing the required permissions (full Read-Only Access is required)
     - E.g. ```export AWS_PROFILE=my-profile```
 
-5. Set kube-context to one with sufficient read permissions across the cluster. The kubeconfig file can automatically be updated for an AWS EKS cluster as per instructions [here](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html). Full Read-Only permissions are required across the cluster.
+5. Set the ```kube-context``` to one with sufficient read permissions across the cluster. The ```kubeconfig``` file can automatically be updated for an AWS EKS cluster as per instructions [here](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html). Full Read-Only permissions are required across the EKS cluster.
     - ```kubectl config get-contexts```
     - ```kubectl config set context <pre-configured existing context>```
 
