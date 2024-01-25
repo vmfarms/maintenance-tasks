@@ -1,5 +1,7 @@
 # Cloud Maintenance Tasks
 
+## Introduction
+This project aims to povide an automated approach to some of the maintencnace and compliance checks in AWS environments, as set out in the [Cloud Environment Maintenance Schedule](https://www.stack.io/whitepapers/cloud-environment-maintenance-schedule).
 ## Requirements
 
 In order for the automated dashboards to be displayed, the following items need to be present in your environment:
